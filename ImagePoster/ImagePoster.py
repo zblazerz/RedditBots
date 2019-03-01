@@ -10,15 +10,15 @@ from time import sleep, strftime
 from datetime import datetime
 
 # API credentials, needs to have mod priviledges 
-reddit = praw.Reddit(client_id='',
+reddit = praw.Reddit(client_id='C9vM-D6uK1tg7g',
                      client_secret='',
-                     username='',
-                     password='',
+                     username='nut-flow-bot',
+                     password='ziadalaa10a',
                      user_agent='Posts images of nuts because why not? by /u/PeskyPotato')
 
 # Time to run daily
-TIME = '23:29'
-SUB = 'test'
+TIME = '12:30'
+SUB = 'nutcult'
 
 def submitNut():
     nut = getNut()
